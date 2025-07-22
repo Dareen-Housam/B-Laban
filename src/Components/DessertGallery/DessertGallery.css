@@ -1,0 +1,53 @@
+.bg-custom {
+  background: linear-gradient(to bottom, #f8f9fa 0%, #e9ecef 40%, #0074d9 100%);
+  padding: 6rem 0;
+  overflow: hidden;
+}
+.gallery-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 2rem 0;
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+}
+
+.gallery-img {
+  width: 360px;
+  height: 360px;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:not(:first-child) {
+  margin-left: -70px;
+}
+
+.rotate-0 {
+  transform: rotate(10deg);
+}
+.rotate-1 {
+  transform: rotate(-10deg);
+}
+.rotate-2 {
+  transform: rotate(8deg);
+}
+.rotate-3 {
+  transform: rotate(-8deg);
+}
+.rotate-4 {
+  transform: rotate(6deg);
+}
+
+@media (max-width: 768px) {
+  .gallery-img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .gallery-img:not(:first-child) {
+    margin-left: -50px;
+  }
+}

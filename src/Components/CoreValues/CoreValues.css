@@ -1,0 +1,14 @@
+.core-values-section {
+  background-color: #0074d9;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.sentence-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.wave-decoration svg {
+  transform: rotate(180deg);
+}

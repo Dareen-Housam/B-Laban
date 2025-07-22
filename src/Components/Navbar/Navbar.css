@@ -1,0 +1,47 @@
+.navbar-custom {
+  background-color: #0074d9;
+}
+
+.nav-link-custom {
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.active-link {
+  color: #bad9f4 !important;
+}
+
+.inactive-link {
+  color: #ffffff !important;
+}
+
+.icon-link {
+  color: #a3cdf1 !important;
+}
+.icon {
+  font-size: 1.4rem;
+  transition: color 0.3s;
+}
+
+.icon-link:hover .icon {
+  color: #ffffff;
+}
+
+.btn-light {
+  background-color: white !important;
+  color: #000000 !important;
+  font-size: 1rem;
+  border: none;
+  transition: all 0.3s;
+}
+
+.btn-light:hover {
+  background-color: #e0e0e0 !important;
+  color: #004c94 !important;
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+    margin-top: 1rem;
+  }
+}
