@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/B-Laban/static/css/main.28372e6c.css",
+    "main.js": "/B-Laban/static/js/main.8586e78b.js",
+    "static/js/453.a7d13ec1.chunk.js": "/B-Laban/static/js/453.a7d13ec1.chunk.js",
+    "index.html": "/B-Laban/index.html",
+    "main.28372e6c.css.map": "/B-Laban/static/css/main.28372e6c.css.map",
+    "main.8586e78b.js.map": "/B-Laban/static/js/main.8586e78b.js.map",
+    "453.a7d13ec1.chunk.js.map": "/B-Laban/static/js/453.a7d13ec1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28372e6c.css",
+    "static/js/main.8586e78b.js"
+  ]
+}
