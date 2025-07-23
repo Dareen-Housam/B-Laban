@@ -52,22 +52,64 @@ function Navbar() {
 
             <div className="d-flex align-items-center ms-lg-3 mt-2 mt-lg-0">
               <div className="social-icons me-3">
-                {[
-                  "facebook",
-                  "youtube",
-                  "instagram",
-                  "tiktok",
-                  "linkedin",
-                  "twitter",
-                ].map((icon) => (
-                  <a href="#" key={icon} className="icon-link  me-2">
-                    <i className={`fab fa-${icon} icon`}></i>
-                  </a>
-                ))}
-                <a href="#" className="icon-link  me-2">
-                  <i className={`fa-solid fa-envelope icon`}></i>
+                <a
+                  href="https://www.facebook.com/61554331319184"
+                  className="icon-link me-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-facebook icon"></i>
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UC6SoOT614g7gWSrtYn3eTmw"
+                  className="icon-link me-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-youtube icon"></i>
+                </a>
+                <a
+                  href="https://instagram.com/b.laban.eg"
+                  className="icon-link me-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-instagram icon"></i>
+                </a>
+                <a
+                  href="https://www.tiktok.com/@b.laban.egypt"
+                  className="icon-link me-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-tiktok icon"></i>
+                </a>
+                <a
+                  href="https://linkedin.com/company/b-laban-%D8%A8%D9%80-%D9%84%D8%A8%D9%86"
+                  className="icon-link me-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-linkedin icon"></i>
+                </a>
+                <a
+                  href="tel:15761"
+                  className="icon-link me-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-solid fa-phone-flip icon"></i>
+                </a>
+                <a
+                  href="mailto:info@blaban.net"
+                  className="icon-link me-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-solid fa-envelope icon"></i>
                 </a>
               </div>
+
               <div className="language-selector">
                 <button className="btn btn-light btn-sm px-3 py-2 fw-bold">
                   <i className="fas fa-globe me-1"></i> EN{" "}

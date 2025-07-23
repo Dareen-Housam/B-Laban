@@ -1,6 +1,23 @@
 import "./SkilledWorker.css";
-
+import { useEffect } from "react";
 function SkilledWorker() {
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+
+    const targets = document.querySelectorAll(".animate-on-scroll");
+    targets.forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, []);
   return (
     <section className="skilled-worker-section position-relative">
       <div className="wave-decoration-top">
@@ -46,9 +63,9 @@ function SkilledWorker() {
         </div>
 
         <div className="content-col d-flex align-items-center">
-          <div className="skilled-worker-content text-white">
+          <div className="skilled-worker-content text-white animate-on-scroll">
             <h2 className="display-5 fw-bold mb-4">Skilled Worker?</h2>
-            <p className="lead mb-4">
+            <p className="lead mb-4 text-dark">
               You are amazing and talented! We should arrange for an appointment
               with you.
             </p>

@@ -27,20 +27,36 @@
 
 .skilled-worker-image {
   width: 100%;
-  height: 400px;
   object-fit: cover;
-  border-top-left-radius: 150px;
-  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 1.5rem;
 }
 
 .skilled-worker-content {
   background-color: #7fdbff;
-  padding: 2rem;
-  border-radius: 1.5rem;
+  padding: 3rem 2.5rem;
+  border-radius: 0.5rem;
   color: black;
   margin-left: -40px;
   z-index: 10;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.8s ease-out;
+}
+
+.skilled-worker-content h2 {
+  font-size: 2.6rem;
+}
+
+.skilled-worker-content p {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.animate-on-scroll.visible {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .custom-btn {
